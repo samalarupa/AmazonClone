@@ -29,11 +29,12 @@
         }
 
         .img {
-            height: 89%;
-            margin: 5px 5px;
+            height: 68%;
+            
             /* margin-top:5px; */
-            padding: 15px;
+            padding: 5px;
             margin-bottom:10px;
+            margin:auto 5px;
 
 
         }
@@ -112,7 +113,7 @@
 
         .c1 {
             width: 100vw;
-            height: 100vh;
+            height:83vh;
             background-color: antiquewhite;
             position: relative;
             bottom: 260px;
@@ -165,7 +166,7 @@
 
         .box {
             width: 23%;
-            height: 470px;
+            height:auto;
             background-color: white;
             box-shadow: 0 0 60px rgba(193, 189, 189, 0.773);
         }
@@ -218,7 +219,7 @@
         }
 
         .img2 {
-            width: 100%;
+            width: 90%;
             height: 90%;
             margin-top: 5px;
         }
@@ -228,13 +229,14 @@
         }
           .c8{
             width: 100vw;
-            height: 70vh;
+            height: auto;
+            
 
           }
         .bikes {
             width: 97%;
             height: 280px;
-            margin: 10px auto;
+            margin: auto;
             background-color: white;
 
             overflow-x: scroll;
@@ -268,6 +270,25 @@
         .get{
             /* margin-top: -20px; */
         }
+        .delivary{
+            margin:auto 5px;
+        }
+        .en{
+            margin:auto 5px;
+        }
+        .hello{
+            margin:auto 5px;
+        }
+        .return{
+            margin:auto 5px;
+        }
+        .cart{
+            margin:auto 5px;
+        }
+        .seemore{
+            margin-right:230px;
+        }
+        
     </style>
 </head>
 
@@ -278,7 +299,7 @@
 
 
 
-        <div class="d-flex justify-content-center align-items-center my-1 gap-1 how p-2">
+        <div class="d-flex justify-content-center align-items-center delivary gap-1  how ">
             <i class="fa-solid text-light fs-4 fa-location-dot"></i>
             <div class="">
                 <p class="m-0 txt text-secondary ">Delivering to Hyderabad 500028</p>
@@ -301,9 +322,9 @@
             <span class="input-group-text bg-warning"><i class="fa-solid fa-magnifying-glass"></i></span>
         </div>
 
-        <div class="d-flex justify-content-start align-items-center my-2 mrg p-1 how">
-            <button class="  btn  col dropdown-toggle" type="button" aria-expanded="false text-light"><img
-                    src="flag.png" width="50px"><b class="text-light mx-1">En</b></button>
+        <div class="d-flex justify-content-start align-items-center en mrg p-1 how ">
+            <button class="  btn   col dropdown-toggle" type="button" aria-expanded="false text-light"><img
+                    src="flag.png" width="50px"><b class="text-light mx-1 ">En</b></button>
             <ul class="dropdown-menu text-light">
                 <li><a class="dropdown-item" href="#">Action</a></li>
                 <li><a class="dropdown-item" href="#">Another action</a></li>
@@ -315,7 +336,7 @@
             </ul>
         </div>
 
-        <div class="d-flex justify-content-center align-items-center my-2 how">
+        <div class="d-flex justify-content-center align-items-center hello my-2 how">
             <button class=" d-flex justify-content-center align-items-center btn  col dropdown-toggle" type="button"
                 data-bs-toggle="dropdown" aria-expanded="false text-light">
                 <div class="s4">
@@ -333,12 +354,12 @@
                 <li><a class="dropdown-item" href="#">Separated link</a></li>
             </ul>
         </div>
-        <div class="s4  s44 text-light d-flex justify-content-center align-items-center flex-column my-1 p-1 how">
+        <div class="s4  s44 text-light d-flex  return justify-content-center align-items-center flex-column my-1 p-1 how">
             <p class="m-0">Returns</p>
             <b class="m-0 extra">&Orders</b>
         </div>
 
-        <div class=" how m1 ">
+        <div class=" how m1 cart">
             <i class="fa-solid fa-cart-plus text-light fs-3 fw-bold py-2 how-3 "></i>
             <b class="m-0 text-light py-1">Cart</b>
         </div>
@@ -383,15 +404,9 @@
             <p class="m-0 text-light my-2 p-1">Electronics</p>
         </div>
         <div class="d-flex justify-content-start align-items-center  how2 my-2 mrg p-1">
-            <button class=" col2 btn dropdown-toggle" type="button" aria-expanded="false text-light ">Prime</button>
+            <button class=" col2 btn " type="button" aria-expanded="false text-light ">Prime</button>
             <ul class="dropdown-menu text-light">
                 <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                <li>
-                    <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="#">Separated link</a></li>
             </ul>
         </div>
         <div class="d-flex  align-items-centerjustify-content-center how2">
@@ -443,7 +458,7 @@
         <div class="d-flex gap-3 boxes">
             <div class="box">
                 <h4 class="m-3 fw-bold ">Appliances for your home | Up to 55% off</h4>
-                <div class="box-1 d-flex">
+                <div class="box-1 d-flex py-3">
                     <div class="box-2 d-flex flex-column justify-content-center align-items-start ">
                         <img src="b1.jpg" class="img1">
                         <p class="m-0 para ">Air Conditioner</p>
@@ -460,12 +475,13 @@
                         <img src="b4.jpg" class="img1">
                         <p class="m-0 para">Washing machine</p>
                     </div>
+                    <a href="" class="text-info  seemore">See more</a>
                 </div>
-                <a href="" class="text-info p-3">See more</a>
+                
             </div>
             <div class="box">
                 <h4 class=" fw-bold head2">Revamp your home in style </h4>
-                <div class="box-1 d-flex">
+                <div class="box-1 d-flex py-3">
                     <div class="box-2 d-flex flex-column justify-content-center align-items-start ">
                         <img src="b12.png" class="img1">
                         <p class="m-0 para ">Cushion covers & more</p>
@@ -482,12 +498,13 @@
                         <img src="b14.png" class="img1">
                         <p class="m-0 para">Lightning solid</p>
                     </div>
+                    <a href="" class="text-info seemore">See more</a>
                 </div>
-                <a href="" class="text-info p-3">See more</a>
+                
             </div>
             <div class="box">
                 <h4 class="m-3 fw-bold head3">Starting ₹149 | Headphones</h4>
-                <div class="box-1 d-flex">
+                <div class="box-1 d-flex py-3">
                     <div class="box-2 d-flex flex-column justify-content-center align-items-start ">
                         <img src="b111.png" class="img1">
                         <p class="m-0 para ">Starting ₹249 | Boats</p>
@@ -504,13 +521,14 @@
                         <img src="b114.png" class="img1">
                         <p class="m-0 para">Starting ₹149 | Zebronics</p>
                     </div>
+                    <a href="" class="text-info seemore">See more</a>
                 </div>
-                <a href="" class="text-info p-3">See more</a>
+                
             </div>
             <div class="box">
                 <h4 class="m-3 fw-bold">Automotive essentials | Up to 60% off
                 </h4>
-                <div class="box-1 d-flex">
+                <div class="box-1 d-flex py-3">
                     <div class="box-2 d-flex flex-column justify-content-center align-items-start ">
                         <img src="b21.png" class="img1">
                         <p class="m-0 para ">cleaning accessories</p>
@@ -527,15 +545,16 @@
                         <img src="b24.png" class="img1">
                         <p class="m-0 para">Vaccume cleaner</p>
                     </div>
+                    <a href="" class="text-info seemore">See more</a>
                 </div>
-                <a href="" class="text-info p-3">See more</a>
+               
             </div>
         </div>
 
         <div class="d-flex gap-3 boxes">
             <div class="box">
                 <h4 class="m-3 fw-bold ">Starting ₹199 | Amazon Brands & more</h4>
-                <div class="box-1 d-flex">
+                <div class="box-1 d-flex py-3">
                     <div class="box-2 d-flex flex-column justify-content-center align-items-start ">
                         <img src="1.png" class="img1">
                         <p class="m-0 para ">Starting ₹149 | Bedsheets
@@ -554,12 +573,13 @@
                         <img src="4.png" class="img1">
                         <p class="m-0 para">Up to 60% off | Home decors</p>
                     </div>
+                    <a href="" class="text-info seemore">See more</a>
                 </div>
-                <a href="" class="text-info p-3">See more</a>
+               <!-- // <a href="" class="text-info p-3">See more</a> -->
             </div>
             <div class="box">
                 <h4 class=" fw-bold head4">Up to 60% off | Styles for women</h4>
-                <div class="box-1 d-flex">
+                <div class="box-1 d-flex py-3">
                     <div class="box-2 d-flex flex-column justify-content-center align-items-start ">
                         <img src="11.png" class="img1">
                         <p class="m-0 para ">Women's clothing</p>
@@ -576,12 +596,13 @@
                         <img src="14.png" class="img1">
                         <p class="m-0 para">Fashion jewellery</p>
                     </div>
+                    <a href="" class="text-info seemore">sale season</a>
                 </div>
-                <a href="" class="text-info p-3">End of sale season</a>
+               
             </div>
             <div class="box">
                 <h4 class="m-3 fw-bold ">Explore more from Small Businesses</h4>
-                <div class="box-1 d-flex">
+                <div class="box-1 d-flex py-3">
                     <div class="box-2 d-flex flex-column justify-content-center align-items-start ">
                         <img src="d1.png" class="img1">
                         <p class="m-0 para ">Ethnic dress & more</p>
@@ -598,13 +619,14 @@
                         <img src="d4.png" class="img1">
                         <p class="m-0 para">Glassware</p>
                     </div>
+                    <a href="" class="text-info seemore">See more</a>
                 </div>
-                <a href="" class="text-info p-3">See more</a>
+              
             </div>
             <div class="box">
                 <h4 class="m-3 fw-bold">Under ₹499 | Deals on home essentials
                 </h4>
-                <div class="box-1 d-flex">
+                <div class="box-1 d-flex py-3">
                     <div class="box-2 d-flex flex-column justify-content-center align-items-start ">
                         <img src="b21.png" class="img1">
                         <p class="m-0 para ">Under ₹199 |supplies</p>
@@ -621,13 +643,14 @@
                         <img src="b24.png" class="img1">
                         <p class="m-0 para">Under ₹599 | wallpapers</p>
                     </div>
+                    <a href="" class="text-info seemore">See more</a>
                 </div>
-                <a href="" class="text-info p-3">See more</a>
+                
             </div>
         </div>
 
     </div>
-    <div class="bikes my-4 bk">
+    <div class="bikes  bk">
         <div class="fix d-flex">
             <h4 class="m-2 fw-bold">Up to 60% off | Curated kitchen products | Amazon Launchpad</h4>
             <button class=" btn btn-link"> see more offers</button>
@@ -679,12 +702,12 @@
             </div>
         </div>
     </div>
-    <div class="c8 p-2 d-flex flex-column gap-4">
+    <div class="c8 p-3 d-flex flex-column gap-4">
 
         <div class="d-flex gap-3 boxes">
             <div class="box">
                 <h4 class="m-3 fw-bold ">Appliances for your home | Up to 55% off</h4>
-                <div class="box-1 d-flex">
+                <div class="box-1 d-flex py-3">
                     <div class="box-2 d-flex flex-column justify-content-center align-items-start ">
                         <img src="b1.jpg" class="img1">
                         <p class="m-0 para ">Air Conditioner</p>
@@ -701,12 +724,13 @@
                         <img src="b4.jpg" class="img1">
                         <p class="m-0 para">Washing machine</p>
                     </div>
+                    <a href="" class="text-info  seemore">See more</a>
                 </div>
-                <a href="" class="text-info p-3">See more</a>
+                
             </div>
             <div class="box">
                 <h4 class=" fw-bold head2">Revamp your home in style </h4>
-                <div class="box-1 d-flex">
+                <div class="box-1 d-flex py-3">
                     <div class="box-2 d-flex flex-column justify-content-center align-items-start ">
                         <img src="b12.png" class="img1">
                         <p class="m-0 para ">Cushion covers & more</p>
@@ -723,12 +747,13 @@
                         <img src="b14.png" class="img1">
                         <p class="m-0 para">Lightning solid</p>
                     </div>
+                    <a href="" class="text-info seemore">See more</a>
                 </div>
-                <a href="" class="text-info p-3">See more</a>
+                
             </div>
             <div class="box">
                 <h4 class="m-3 fw-bold head3">Starting ₹149 | Headphones</h4>
-                <div class="box-1 d-flex">
+                <div class="box-1 d-flex py-3">
                     <div class="box-2 d-flex flex-column justify-content-center align-items-start ">
                         <img src="b111.png" class="img1">
                         <p class="m-0 para ">Starting ₹249 | Boats</p>
@@ -745,13 +770,14 @@
                         <img src="b114.png" class="img1">
                         <p class="m-0 para">Starting ₹149 | Zebronics</p>
                     </div>
+                    <a href="" class="text-info seemore">See more</a>
                 </div>
-                <a href="" class="text-info p-3">See more</a>
+                
             </div>
             <div class="box">
                 <h4 class="m-3 fw-bold">Automotive essentials | Up to 60% off
                 </h4>
-                <div class="box-1 d-flex">
+                <div class="box-1 d-flex py-3">
                     <div class="box-2 d-flex flex-column justify-content-center align-items-start ">
                         <img src="b21.png" class="img1">
                         <p class="m-0 para ">cleaning accessories</p>
@@ -768,14 +794,111 @@
                         <img src="b24.png" class="img1">
                         <p class="m-0 para">Vaccume cleaner</p>
                     </div>
+                    <a href="" class="text-info seemore">See more</a>
                 </div>
-                <a href="" class="text-info p-3">See more</a>
+               
             </div>
         </div>
 
+        <div class="d-flex gap-3 boxes">
+            <div class="box">
+                <h4 class="m-3 fw-bold ">Starting ₹199 | Amazon Brands & more</h4>
+                <div class="box-1 d-flex py-3">
+                    <div class="box-2 d-flex flex-column justify-content-center align-items-start ">
+                        <img src="1.png" class="img1">
+                        <p class="m-0 para ">Starting ₹149 | Bedsheets
+                        </p>
+                    </div>
+                    <div class="box-2 d-flex flex-column justify-content-center  align-items-start">
+                        <img src="2.png" class="img1">
+                        <p class="m-0 para">Starting ₹149 | curtains
+                        </p>
+                    </div>
+                    <div class="box-2 d-flex flex-column justify-content-center  align-items-start">
+                        <img src="3.png" class="img1">
+                        <p class="m-0 para">Minimum 40% off |Ironing board</p>
+                    </div>
+                    <div class="box-2 d-flex flex-column justify-content-center  align-items-start">
+                        <img src="4.png" class="img1">
+                        <p class="m-0 para">Up to 60% off | Home decors</p>
+                    </div>
+                    <a href="" class="text-info seemore">See more</a>
+                </div>
+               <!-- // <a href="" class="text-info p-3">See more</a> -->
+            </div>
+            <div class="box">
+                <h4 class=" fw-bold head4">Up to 60% off | Styles for women</h4>
+                <div class="box-1 d-flex py-3">
+                    <div class="box-2 d-flex flex-column justify-content-center align-items-start ">
+                        <img src="11.png" class="img1">
+                        <p class="m-0 para ">Women's clothing</p>
+                    </div>
+                    <div class="box-2 d-flex flex-column justify-content-center  align-items-start">
+                        <img src="12.png" class="img1 img2">
+                        <p class="m-0 para">Footware</p>
+                    </div>
+                    <div class="box-2 d-flex flex-column justify-content-center  align-items-start">
+                        <img src="13.png" class="img1">
+                        <p class="m-0 para">Watches</p>
+                    </div>
+                    <div class="box-2 d-flex flex-column justify-content-center  align-items-start">
+                        <img src="14.png" class="img1">
+                        <p class="m-0 para">Fashion jewellery</p>
+                    </div>
+                    <a href="" class="text-info seemore">sale season</a>
+                </div>
+               
+            </div>
+            <div class="box">
+                <h4 class="m-3 fw-bold ">Explore more from Small Businesses</h4>
+                <div class="box-1 d-flex py-3">
+                    <div class="box-2 d-flex flex-column justify-content-center align-items-start ">
+                        <img src="d1.png" class="img1">
+                        <p class="m-0 para ">Ethnic dress & more</p>
+                    </div>
+                    <div class="box-2 d-flex flex-column justify-content-center  align-items-start">
+                        <img src="d2.png" class="img1">
+                        <p class="m-0 para">Decor</p>
+                    </div>
+                    <div class="box-2 d-flex flex-column justify-content-center  align-items-start">
+                        <img src="d3.png" class="img1">
+                        <p class="m-0 para">Fashion accessories</p>
+                    </div>
+                    <div class="box-2 d-flex flex-column justify-content-center  align-items-start">
+                        <img src="d4.png" class="img1">
+                        <p class="m-0 para">Glassware</p>
+                    </div>
+                    <a href="" class="text-info seemore">See more</a>
+                </div>
+              
+            </div>
+            <div class="box">
+                <h4 class="m-3 fw-bold">Under ₹499 | Deals on home essentials
+                </h4>
+                <div class="box-1 d-flex py-3">
+                    <div class="box-2 d-flex flex-column justify-content-center align-items-start ">
+                        <img src="b21.png" class="img1">
+                        <p class="m-0 para ">Under ₹199 |supplies</p>
+                    </div>
+                    <div class="box-2 d-flex flex-column justify-content-center  align-items-start">
+                        <img src="b22.png" class="img1">
+                        <p class="m-0 para">Under ₹399 |tools</p>
+                    </div>
+                    <div class="box-2 d-flex flex-column justify-content-center  align-items-start">
+                        <img src="b23.png" class="img1">
+                        <p class="m-0 para">Under ₹499 | home tools</p>
+                    </div>
+                    <div class="box-2 d-flex flex-column justify-content-center  align-items-start">
+                        <img src="b24.png" class="img1">
+                        <p class="m-0 para">Under ₹599 | wallpapers</p>
+                    </div>
+                    <a href="" class="text-info seemore">See more</a>
+                </div>
+                
+            </div>
+        </div>
 
-
-    </div> 
+    </div>
     <footer class="bg-dark p-3 ">
         <div class="footer-container d-flex justify-content-evenly align-items-center ">
             <div class="footer-section more ">
